@@ -177,12 +177,7 @@ export default function Landing() {
         </motion.div>
       </section>
 
-      <section
-        id="achievements"
-        className="relative min-h-screen bg-white text-black flex items-center justify-center"
-      >
-        <h2 className="text-4xl sm:text-5xl font-bold">Achievements Section</h2>
-      </section>
+      
 
       {/* <section
         id="contact"
