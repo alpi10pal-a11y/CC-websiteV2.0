@@ -5,7 +5,10 @@
 }
 
 .landing-heading {
-  font-size: 2.2rem;
+  font-size: 2rem;
+  line-height: 1.1;
+  text-align: center;
+  word-break: keep-all;
 }
 
 .landing-btn-primary,
@@ -49,8 +52,9 @@
 }
 
 @media (min-width: 768px) {
-  .landing-heading {
-    font-size: 3.2rem; 
+    .landing-heading {
+    font-size: 3.2rem;
+    text-align: left;
   }
   .cube {
     width: 250px;
@@ -60,7 +64,7 @@
 
 @media (min-width: 1024px) {
   .landing-heading {
-    font-size: 4rem; 
+    font-size: 4.4rem; 
   }
   .cube {
     width: 320px;
@@ -71,7 +75,7 @@
 
 @media (min-width: 1440px) {
   .landing-heading {
-    font-size: 5.2rem; 
+    font-size: 5.6rem; 
   }
   .cube {
     width: 380px;
@@ -93,5 +97,10 @@
     width: 80%;
     padding: 0.7rem 1.25rem; 
     font-size: 0.95rem;
+  }
+}
+@media (min-width: 480px) {
+  .landing-heading {
+    font-size: 2.6rem;
   }
 }

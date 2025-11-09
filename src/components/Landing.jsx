@@ -89,47 +89,49 @@ export default function Landing() {
           />
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          className="z-10 text-center lg:text-left space-y-10 w-full lg:w-1/2 landing-text"
-        >
-          <div className="space-y-4">
-            <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.3, duration: 0.6 }}
-              className="font-bold leading-tight landing-heading w-7xl"
-            >
-              <div>
-                <span className="font-bold text-white">Cooking</span>{" "}
-                <span className="font-light text-white/80">code,</span>
-              </div>
-              <div className="mt-2 sm:mt-3">
-                <span className="font-bold text-white">Building</span>{" "}
-                <span className="font-light text-white/80">community</span>
-              </div>
-            </motion.h1>
-          </div>
+       <motion.div
+  initial={{ opacity: 0, x: -50 }}
+  animate={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.8, ease: "easeOut" }}
+  className="z-10 text-center lg:text-left space-y-10 w-full lg:w-1/2 landing-text"
+>
+  <div className="space-y-4">
+    <motion.h1
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.3, duration: 0.6 }}
+  className="font-bold leading-[1.1] text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mx-auto lg:mx-0 text-center lg:text-left whitespace-nowrap"
+>
+  <div>
+    <span className="font-bold text-white">Cooking</span>{" "}
+    <span className="font-light text-white/80">code,</span>
+  </div>
+  <div className="mt-2 sm:mt-3">
+    <span className="font-bold text-white">Building</span>{" "}
+    <span className="font-light text-white/80">community</span>
+  </div>
+</motion.h1>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5, duration: 0.6 }}
-            className="flex flex-wrap justify-center lg:justify-start gap-4 mt-12"
-          >
-            <button className="group landing-btn-primary cursor-pointer">
-              <span className="relative z-10">Get Started</span>
-              <div className="absolute inset-0 bg-linear-to-r from-blue-500/20 to-cyan-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl" />
-            </button>
+  </div>
 
-            <button className="group landing-btn-secondary cursor-pointer">
-              <span className="relative z-10">Learn More</span>
-              <div className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl" />
-            </button>
-          </motion.div>
-        </motion.div>
+  <motion.div
+    initial={{ opacity: 0, y: 20 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ delay: 0.5, duration: 0.6 }}
+    className="flex flex-wrap justify-center lg:justify-start gap-4 mt-12"
+  >
+    <button className="group landing-btn-primary cursor-pointer">
+      <span className="relative z-10">Get Started</span>
+      <div className="absolute inset-0 bg-linear-to-r from-blue-500/20 to-cyan-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl" />
+    </button>
+
+    <button className="group landing-btn-secondary cursor-pointer">
+      <span className="relative z-10">Learn More</span>
+      <div className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl" />
+    </button>
+  </motion.div>
+</motion.div>
+
 
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
