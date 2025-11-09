@@ -45,8 +45,8 @@ const ExPresident = () => {
       name: "Tanishq Srivastava",
       skill: "Full Stack Flutter Developer",
       role: "President 2020-2021",
-      image: "https://codechefabesec.netlify.app/img/teamimages/Screenshot%202024-09-22%20000645.webp",
-      profileImg: "https://codechefabesec.netlify.app/img/teamimages/Screenshot%202024-09-22%20000645.webp",
+      image: "../../public/tanishq-bhaiya.webp",
+      profileImg: "../../public/tanishq-bhaiya.webp",
       username: "@tanishq ",
       linkedin: "https://www.linkedin.com/in/tannatsri/"
     },
@@ -55,8 +55,8 @@ const ExPresident = () => {
       name: "Bhumika Arora",
       skill: "Analyst, KPMG",
       role: "President 2022-2023",
-      image: "https://codechefabesec.netlify.app/img/teamimages/BhumikaArora_ccwebsite_Bhumika%20Arora.webp",
-      profileImg: "https://codechefabesec.netlify.app/img/teamimages/BhumikaArora_ccwebsite_Bhumika%20Arora.webp",
+      image: "/bhumika-didi.webp",
+      profileImg: "/bhumika-didi.webp",
       username: "@bhumika",
       linkedin: "https://www.linkedin.com/in/thebhumikaarora/"
     },
@@ -65,8 +65,8 @@ const ExPresident = () => {
       name: "Sai Aryan Goswami",
       skill: "Full Stack Developer",
       role: "President 2024-2025",
-      image: "https://media.licdn.com/dms/image/v2/D5603AQEOPGDkgnMb7Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715680502419?e=1764201600&v=beta&t=g0c1vdnxp0vF4N7pnUxAdbtYSzvPKkYBmcDZRZBCCXw",
-      profileImg: "https://media.licdn.com/dms/image/v2/D5603AQEOPGDkgnMb7Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715680502419?e=1764201600&v=beta&t=g0c1vdnxp0vF4N7pnUxAdbtYSzvPKkYBmcDZRZBCCXw",
+      image: "/sai-bhaiya.jpg",
+      profileImg: "/sai-bhaiya.jpg",
       username: "saiaryan",
       linkedin: "https://www.linkedin.com/in/saiaryangoswami"
     },
@@ -75,8 +75,8 @@ const ExPresident = () => {
       name: "Tanveer Raza",
       skill: "Rust, Linux Systems Programming",
       role: "President 2021-2022",
-      image: "https://i.ibb.co/d04stVT/Whats-App-Image-2024-09-21-at-21-10-57-2716cdff.webp",
-      profileImg: "https://i.ibb.co/d04stVT/Whats-App-Image-2024-09-21-at-21-10-57-2716cdff.webp",
+      image: "/tanveer-bhaiya.jpg",
+      profileImg: "/tanveer-bhaiya.jpg",
       username: "@tanveer",
       linkedin: "https://www.linkedin.com/in/atamakahere/"
     },
@@ -85,8 +85,8 @@ const ExPresident = () => {
       name: "Abhinav Jha",
       skill: "UI/UX Designer",
       role: "President 2023-2024",
-      image: "https://codechefabesec.netlify.app/img/teamimages/IMG_20240920_093105_Abhinav%20Kumar%20Jha%20(1).webp",
-      profileImg: "https://codechefabesec.netlify.app/img/teamimages/IMG_20240920_093105_Abhinav%20Kumar%20Jha%20(1).webp",
+      image: "/abhinav-bhaiya.webp",
+      profileImg: "/abhinav-bhaiya.webp",
       username: "@Abhinav",
       linkedin: "https://www.linkedin.com/in/abhijha301/"
     }
